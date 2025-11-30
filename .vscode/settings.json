@@ -1,0 +1,18 @@
+{
+    // Disable inline ghost suggestions
+    "editor.inlineSuggest.enabled": false,
+    // Stop automatic suggestion popups while typing
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    // Reduce suggestion noise from GitHub Copilot (nested object)
+    "github.copilot": {
+        "inlineSuggest": {
+            "enable": false
+        },
+        "enable": false
+    }
+}
